@@ -1,0 +1,178 @@
+.nav {
+    background-color:  rgb(59, 57, 57);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+}
+
+.exterior {
+    background-color: rgb(59, 57, 57);
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: start;
+    flex: 5;
+    list-style: none;
+}
+
+.nav-title {
+    color: white;
+}
+
+.options {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #08bebe;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    flex: 1;
+}
+
+body {
+    font-family: 'Island Moments', cursive;
+}
+
+.encabezado {
+    background-color: #08bebe;
+    height: 125px;
+    position: relative;
+}
+
+.usuario {
+    position: absolute;
+    width: 85px;
+    top: 55px;
+    left: 20px;
+    border-radius: 50%;
+    padding: 2px;
+    border-color: #e8e8e8e1;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.cuerpo {
+    padding: 10px 25px;
+    border: 2px solid #e8e8e8e1;
+}
+
+.iconos {
+    width: 13px;
+    margin-right: 5px;
+}
+
+.ubicacion {
+    margin-bottom: 10px;
+}
+
+.edicion {
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.connection-request {
+    border: 2px solid #e8e8e8e1;
+}
+
+.your-connection {
+    border: 2px solid #e8e8e8e1;
+    margin-top: 20px;
+}
+
+.education {
+    margin-top: 20px;
+    border: 2px solid #e8e8e8e1;
+
+}
+
+.text-education {
+    padding-left: 20px;
+}
+
+#date-work {
+    color: gray;
+}
+
+.view-more {
+    border: 2px solid #e8e8e8e1;
+    height: 30px;
+    padding: 8px 10px;
+}
+
+.cont-1 {
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+}
+
+.cont-2 {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+}
+
+.encabezado-titulo {
+    height: 35px;
+    background-color: rgb(59, 57, 57);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.cuerpo-your-connection {
+    padding: 10px 10px;
+}
+
+.user-profile {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.iconsss {
+    width: 30px;
+}
+
+.texto-nombre{
+    position: relative;
+    bottom: 15px;
+}
+.solicitudes{
+    border :1px solid gray;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 5px;
+    width: 35px;
+    text-align: center;
+}
+
+.conection-requests{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.name{
+    width: 60px;
+}
